@@ -1,0 +1,90 @@
+.cal-wrapper {
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+.css-var-root.ant-picker-calendar{
+  --ant-calendar-mini-content-height : 25px;
+}
+.custom-cal {
+  .ant-picker-panel {
+    .ant-picker-calendar-header {
+      display: none !important;
+    }
+    .ant-picker-calendar-week {
+      display: none !important;
+    }
+    .ant-picker-calendar-date{
+      height: auto !important;
+    }
+  }
+
+  .ant-picker-calendar {
+    .ant-picker-content {
+      thead {
+        display: none !important;
+      }
+    }
+  }
+
+  .ant-picker-calendar-date-content {
+    padding: 0 !important;
+  }
+.ant-picker-calendar .ant-picker-content td {
+  height: 25px !important;
+}
+  // .ant-picker-calendar-date {
+  //   height: 40px !important;
+  // }
+}
+
+.cal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 8px;
+}
+
+.circle-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: none;
+  background: #f3f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    background: #e5e1ff;
+  }
+}
+
+.week-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 6px 0;
+
+  .week-label {
+    text-align: center;
+  }
+}
+.ant-picker-content{
+  thead{
+    display: none !important;
+  }
+}
+.custom-cal-body{
+  border: 1px solid #e3dede;
+  border-radius: 0.4rem;
+}

@@ -1,0 +1,34 @@
+.tasks-card {
+  :global(.ant-table) {
+    font-size: 12px;
+  }
+
+  .tasks-employee-section {
+    margin-bottom: 24px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .employee-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+      font-weight: 600;
+
+      .employee-name {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// .task-overview-section{
+//   .ant-card {
+//     .ant-card-body {
+//       height: 320px !important;
+//       overflow: auto !important;
+//     }
+//   }
+// }

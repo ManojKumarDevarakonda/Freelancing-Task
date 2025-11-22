@@ -4,23 +4,14 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script>
-      // Redirect to index.html for GitHub Pages SPA routing
-      var path = window.location.pathname;
-      var basePath = '/Freelancing-Task';
-      var indexPath = basePath + '/index.html';
-      
-      // If we're not already at index.html, redirect
-      if (path !== basePath + '/' && path !== indexPath) {
-        window.location.replace(basePath + '/index.html' + window.location.search + window.location.hash);
-      } else {
-        window.location.replace(indexPath);
-      }
+      // Redirect to landing page on 404
+      window.location.replace('/Freelancing-Task/');
     </script>
     <noscript>
       <meta http-equiv="refresh" content="0; url=/Freelancing-Task/">
     </noscript>
   </head>
   <body>
-    <p>Redirecting...</p>
+    <p>Redirecting to home page...</p>
   </body>
 </html>

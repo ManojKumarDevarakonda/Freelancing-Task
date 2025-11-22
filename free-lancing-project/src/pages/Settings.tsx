@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, Plus, Star, Share2, Paperclip, UserPlus, MoreHorizontal } from 'lucide-react';
+import { Plus, Star, Share2, Paperclip, UserPlus } from 'lucide-react';
 import "./Settings.scss"
 
 export default function Settings() {
@@ -13,16 +13,12 @@ export default function Settings() {
     <div className="payroll-settings-page">
       <div className="main-content">
         {/* Page Header */}
-        <div className="page-header">
-          <div className="page-title">
-            <Menu size={24} />
-            <h1>Payroll Settings</h1>
-          </div>
+        {/* <div className="page-header">
           <div className="page-actions">
             <button className="icon-btn"><MoreHorizontal size={20} /></button>
             <button className="save-button">Save</button>
           </div>
-        </div>
+        </div> */}
 
         <div className="content-wrapper">
           {/* Sidebar */}

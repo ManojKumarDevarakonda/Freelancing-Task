@@ -40,7 +40,7 @@ export default function Documents() {
     ));
   };
   return (
-    <Card bordered={false}>
+    // <Card bordered={false}>
       <div className="documents-container">
         <div className="tabs">
           <button
@@ -69,6 +69,6 @@ export default function Documents() {
           {activeTab === "Personal Documents" && renderDocs(personalDocs)}
         </div>
       </div>
-    </Card>
+    // </Card>
   )
 }

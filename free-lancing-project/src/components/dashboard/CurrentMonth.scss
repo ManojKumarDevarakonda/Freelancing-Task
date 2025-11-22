@@ -26,11 +26,18 @@
       thead {
         display: none !important;
       }
+      margin: 0 !important;
     }
   }
 
   .ant-picker-calendar-date-content {
     padding: 0 !important;
+  }
+  .ant-picker-body{
+    padding: 0 !important;
+    .ant-picker-content{
+      margin: 0 !important;
+    }
   }
 .ant-picker-calendar .ant-picker-content td {
   height: 25px !important;

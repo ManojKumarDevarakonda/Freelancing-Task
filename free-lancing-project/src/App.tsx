@@ -6,8 +6,8 @@ import Job from "./pages/Job"
 import Benefits from "./pages/Benefits"
 import Documents from "./pages/Documents"
 import TeamDirectory from "./pages/TeamDirectory"
-import TimeSheetChart from "./components/dashboard/Timesheets"
 import Settings from "./pages/Settings"
+import Timesheets from "./pages/Timesheets"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/personal-data" element={<PersonalData />} />
-          <Route path="/timesheets" element={<TimeSheetChart />} />
+          <Route path="/timesheets" element={<Timesheets />} />
           <Route path="/job" element={<Job />} />
           <Route path="/employee-benefits" element={<Benefits />} />
           <Route path="/employee-documents" element={<Documents />} />
